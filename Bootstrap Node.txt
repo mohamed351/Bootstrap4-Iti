@@ -27,3 +27,23 @@ float-left
 float-right
 -----------------------
 
+Example about Figure 
+https://getbootstrap.com/docs/4.3/content/figures/
+==================================================
+<figure class="figure">
+  <img src="..." class="figure-img img-fluid rounded" alt="...">
+  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+</figure>
+---------------------------------------------
+Example about Alert
+https://getbootstrap.com/docs/4.3/components/alerts/
+==================================================
+<div class="alert alert-primary" role="alert">
+  A simple primary alert—check it out!
+</div>
+
+
+
+
+
+
