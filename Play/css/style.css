@@ -1,0 +1,32 @@
+.button-contact {
+    background-color: #cf1c15 ;
+    color:#fff;
+    font-family: "Raleway";
+    border:none;
+    padding:10px 10px;
+}
+.text-icon{
+    font-size: 55px;
+}
+.text-container h5{
+    font-size: 16px;
+}
+.text-container h5 +p
+{
+    font-size: 10px;
+}
+.img-maxm{
+    max-height: 150px;
+}
+.text-container div
+{
+    padding:0px;
+}
+.text-class{
+    padding:10px !important;
+}
+.background-grey
+{
+    background-color: #eee;
+    width: 100%;
+}
