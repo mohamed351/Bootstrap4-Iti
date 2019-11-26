@@ -2,6 +2,28 @@ bootstrap Classes
 ==================
 containter
 container fluid
+---------------------
+grid System 
+---------------------
+mt - ml -mb -mr
+pt - pl -pb -pr
+---------------------
+justify-content-start
+justify-content-end
+justify-content-center
+justify-content-between
+justify-content-around
+-----------------------
+align-self-start
+align-self-end
+align-self-center
+align-self-baseline
+align-self-stretch
+=====================
+new >
+img-thumbnail
+rounded 
+float-left
+float-right
+-----------------------
 
-==================
-new 
