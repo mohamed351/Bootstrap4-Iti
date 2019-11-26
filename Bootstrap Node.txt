@@ -5,8 +5,8 @@ container fluid
 ---------------------
 grid System 
 ---------------------
-mt - ml -mb -mr
-pt - pl -pb -pr
+mt - ml -mb -mr-mx
+pt - pl -pb -pr -px
 ---------------------
 justify-content-start
 justify-content-end
@@ -41,6 +41,17 @@ https://getbootstrap.com/docs/4.3/components/alerts/
 <div class="alert alert-primary" role="alert">
   A simple primary alert—check it out!
 </div>
+===============================================
+nav 
+nav-item
+nav-link
+example
+<ul class="nav">
+<li class="nav-item"> <a class="nav-link" > </a> </li>
+</ul>
+=================================================
+
+
 
 
 
