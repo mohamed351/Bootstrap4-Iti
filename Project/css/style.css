@@ -62,5 +62,16 @@
 .img-max-hight{
     height: 60vh;
 }
+.small-img-rounded
+{
+    width: 50px;
+    border-radius: 50%;
 
+}
+.align-top{
+    vertical-align: top;
+}
+.backgroundcolor-container{
+    background-color: #f8f9fa;
+}
 
