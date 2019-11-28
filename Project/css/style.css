@@ -1,3 +1,22 @@
+@font-face {
+    font-family: "idiot font";
+    src: url(../website-fonts/FontFile.woff2);
+}
+.title-font{
+    font-family: "idiot font";
+    font-weight: bold;
+    
+}
+
+.mywrite-font{
+ 
+   font-family: 'Anonymous Pro', monospace;
+   color:#8F989F;
+}
+.title-fonts{
+    font-family: 'Baskervville', serif;
+    font-weight: bold;
+}
 .navbar-transparent{
     background-color: transparent;
 }
@@ -80,3 +99,65 @@
     font-size: 50px;
     padding: 6px 0px;
 }
+.backgound-section-pre
+{
+    background-color: #FFC107;
+    color:#fff;
+}
+.background-section-last{
+    background-color:#FFC809;
+}
+.transparent-button-white{
+    background-color: transparent;
+    border: 2px solid #fff;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    color:#fff;
+    margin-bottom: 2vh;
+    
+}
+.transparent-button-white:hover{
+    background-color: #fff;
+    color:#000;
+}
+.big-padding{
+    padding:100px  0px;
+
+}
+.custome-ul 
+{
+  list-style: none;
+  padding: 0;
+    
+}
+.custome-ul  li{
+    margin: 5px 0;
+}
+.custome-ul  li a
+{
+    color:#000;
+    text-decoration: underline;
+
+}
+.custome-ul  li a:hover
+{
+   
+    text-decoration: none;
+
+}
+.transparent-button-black{
+    
+    background-color: transparent;
+    border: 2px solid #000;
+    font-weight: bold;
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+}
+.transparent-button-black:hover{
+    background-color: #333;
+    color:#fff;
+}
+
+
