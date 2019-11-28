@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap -project</title>
     <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
           <!--Start navbar -->
-        <nav class="navbar navbar-expand-lg  fixed-top   navbar-transparent">
+        <nav id="navbar-element" class="navbar navbar-expand-lg  fixed-top   navbar-transparent">
             <div class="container-fluid">
                 <a class="text-white my-favorate-color   navbar-brand " href="#">CARDBORD</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,7 +19,7 @@
                 </button>
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mx-auto  ">
+                  <ul id="navbar-element" class="navbar-nav mx-auto  ">
                     <li class="nav-item active">
                       <a class="nav-link  my-favorate-color" href="#">HOME <span class="sr-only">(current)</span></a>
                     </li>
@@ -139,6 +140,11 @@
                     </div>
                 </section>
                 <!-- end Section 2-->
+
+
+              
+          
+
                 <!--Section 3-->
                 <section class="container big-margin-top background-dotted">
                     <div class="row justifiy-content-cent pt-5 pl-5">
@@ -168,6 +174,55 @@
 
                 </section>
                 <!--Section3-->
+
+
+
+                  <!--Section Info-->
+                  <div class="container my-5 py-5">
+                      <div class="row">
+                        <div class="col-md-3">
+                            <i class="fas fa-magnet icon-info"></i>
+                          <h5 >Design  </h5>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis porro doloremque laudantium dicta cum sit deleniti fugiat atque
+                          </p>
+                        </div>
+    
+    
+                        <div class="col-md-3">
+                            <i class="fas fa-desktop icon-info"></i>
+                            <h5 >Branding Identity  </h5>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis porro doloremque laudantium dicta cum sit deleniti fugiat atque
+                            </p>
+                          </div>
+    
+    
+                          <div class="col-md-3">
+                              <i class="fas fa-mobile-alt icon-info"></i>
+    
+    
+                              <h5>Mobile Application  </h5>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis porro doloremque laudantium dicta cum sit deleniti fugiat atque
+                              </p>
+                            </div>
+    
+                            <div class="col-md-3">
+                                <i class="fas fa-search icon-info"></i>
+                                <h5 class="text-left text-md-center">Search Engine </h5>
+                                <p>
+                                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis porro doloremque laudantium dicta cum sit deleniti fugiat atque
+                                </p>
+                              </div>
+    
+                      </div>
+    
+                    </div>
+                    <!--Section Info-->
+    
+
+
                 <!--Section 4-->
                 <section class="container-fluid mt-5 pt-5 backgroundcolor-container">
                     <div class="row ">
@@ -176,8 +231,14 @@
                             <h2 class="text-center">Testimonial</h2>
                         </div>
                     </div>
-                    <div class="row mt-5 justify-content-center">
-                        <div class="col-12 col-md-4 ">
+            
+                    <div class="row mt-5 ">
+
+                     <div id="Employees" class="d-none d-sm-block  carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                <div class="d-flex active justify-content-center">
+                        <div class="col-12 col-md-4  ">
 
                           <img src="img/person_1.jpg" class="img-fluid small-img-rounded d-inline-block align-top" />
                           <div class="d-inline-block">
@@ -192,8 +253,8 @@
                         </div>
 
                         </div>
-
-                        <div class="col-12 col-md-4 ">
+                              
+                        <div class="col-12 col-md-4">
 
                                 <img src="img/person_2.jpg" class="img-fluid small-img-rounded d-inline-block align-top" />
                                 <div class="d-inline-block">
@@ -208,15 +269,161 @@
                               </div>
       
                               </div>
+                              </div>
+                                </div>
+                                <div class="carousel-item ">
+                                        <div class="d-flex active justify-content-center">
+                                <div class="col-12 col-md-4  ">
+        
+                                  <img src="img/person3.jpg" class="img-fluid small-img-rounded d-inline-block align-top" />
+                                  <div class="d-inline-block">
+                                  <h6 class="mb-0 ml-3">Soso Smith</h6>
+                               
+                                  <p class=" ml-3"> Customer crop</p>
+                                </div>
+                                <div class="d-block">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore odio explicabo, maxime nam ullam totam? Velit dolorum itaque consectetur quod necessitatibus deserunt? Necessitatibus debitis iure tenetur esse sapiente rem.
+                                    </p>
+                                </div>
+        
+                                </div>
+                                      
+                                <div class="col-12 col-md-4">
+        
+                                        <img src="img/person_2.jpg" class="img-fluid small-img-rounded d-inline-block align-top" />
+                                        <div class="d-inline-block">
+                                        <h6 class="mb-0 ml-3">Craig Darren</h6>
+                                     
+                                        <p class=" ml-3"> Customer crop.</p>
+                                      </div>
+                                      <div class="d-block">
+                                          <p>
+                                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore odio explicabo, maxime nam ullam totam? Velit dolorum itaque consectetur quod necessitatibus deserunt? Necessitatibus debitis iure tenetur esse sapiente rem.
+                                          </p>
+                                      </div>
+              
+                                      </div>
+                                      </div>
+                              </div>
+                              <!--Add Item for Cars and don't forget to style it idiot-->
+
                         </div>
+                        </div>
+
+                       
+                        <!--Mobile-->
+
+                        <div id="employee2" class="d-xl-none  carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+                                    <div class="col-12">
+                                       <img src="img/person3.jpg" class="img-fluid small-img-rounded d-inline-block align-top" />
+                                       <div class="d-inline-block">
+                                       <h6 class="mb-0 ml-3">John Smith</h6>
+                                    
+                                       <p class=" ml-3"> Customer crop</p>
+                                     </div>
+                                     <div class="d-block">
+                                         <p>
+                                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore odio explicabo, maxime nam ullam totam? Velit dolorum itaque consectetur quod necessitatibus deserunt? Necessitatibus debitis iure tenetur esse sapiente rem.
+                                         </p>
+                                   </div>
+                                   </div> 
+                                   </div>
+
+                              
+
+                              <div class="carousel-item ">
+                               <div class="col-12">
+                                  <img src="img/person_1.jpg" class="img-fluid small-img-rounded d-inline-block align-top" />
+                                  <div class="d-inline-block">
+                                  <h6 class="mb-0 ml-3">John Smith</h6>
+                               
+                                  <p class=" ml-3"> Customer crop</p>
+                                </div>
+                                <div class="d-block">
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore odio explicabo, maxime nam ullam totam? Velit dolorum itaque consectetur quod necessitatibus deserunt? Necessitatibus debitis iure tenetur esse sapiente rem.
+                                    </p>
+                              </div>
+                              </div> 
+                              </div>
+
+
+                              <div class="carousel-item ">
+                                  <div class="col-12">
+                                     <img src="img/person_2.jpg" class="img-fluid small-img-rounded d-inline-block align-top" />
+                                     <div class="d-inline-block">
+                                     <h6 class="mb-0 ml-3">Craig Darren</h6>
+                                  
+                                     <p class=" ml-3"> Customer crop</p>
+                                   </div>
+                                   <div class="d-block">
+                                       <p>
+                                           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore odio explicabo, maxime nam ullam totam? Velit dolorum itaque consectetur quod necessitatibus deserunt? Necessitatibus debitis iure tenetur esse sapiente rem.
+                                       </p>
+                                 </div>
+                                 </div> 
+                                 </div>
+
+                                
+                                 
+
+
+
+                        </div>
+
+
+
+
+                        </div>
+                   
                         
-                    </div>
+                 
 
                 </section>
+
+                
                 <!---->
+
+               
     
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+           window.onscroll = function(e){
+            var y = $(document).scrollTop();
+           
+            if(650<y)
+            {
+                $("#navbar-element").removeClass("navbar-transparent");
+                $("#navbar-element")
+                .addClass("navbar-light")
+                .addClass("bg-light");
+                $("#navbar-element .text-white").each(function(c){
+                   $(this).removeClass("text-white");
+                });
+             
+                
+            }
+            else
+            {
+                $("#navbar-element").addClass("navbar-transparent");
+                $("#navbar-element")
+                .removeClass("navbar-light")
+                .removeClass("bg-light");
+                $("#navbar-element .nav-link").each(function(c){
+                   $(this).addClass("text-white");
+                });
+            }
+
+           }
+
+        });
+    </script>
 </body>
 </html>

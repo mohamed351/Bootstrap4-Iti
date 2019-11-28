@@ -11,6 +11,7 @@
       color:#fff;
     border:1px solid #fff;
     outline: none;
+     align-items: flex-end;
     
 }
 .slide-text{
@@ -74,4 +75,8 @@
 .backgroundcolor-container{
     background-color: #f8f9fa;
 }
-
+.icon-info{
+    color:#ffc107;
+    font-size: 50px;
+    padding: 6px 0px;
+}
