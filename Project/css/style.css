@@ -2,15 +2,32 @@
     font-family: "idiot font";
     src: url(../website-fonts/FontFile.woff2);
 }
+@keyframes leftAnimation {
+    from{ visibility: hidden; left: 90%; }
+    to{visibility: visible;left: 33% }
+};
+body
+{
+    overflow-x:hidden !important;
+}
 .title-font{
     font-family: "idiot font";
     font-weight: bold;
     
 }
+.causal-point{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+   
+}
+.causal-point.active{
+    background-color: #ffc107 !important;
+}
 
 .mywrite-font{
  
-   font-family: 'Anonymous Pro', monospace;
+   font-family:  monospace;
    color:#8F989F;
 }
 .title-fonts{
@@ -71,7 +88,8 @@
     position: absolute;
     max-width: 13rem;
     top: 75%;
-    left: 32%;
+    left: 33%;
+    
 }
 .background-dotted{
     background-image: url(../img/dotted.jpg);
@@ -158,6 +176,56 @@
 .transparent-button-black:hover{
     background-color: #333;
     color:#fff;
+}
+.parind{
+    bottom: -40px;
+}
+.parcal{
+    background-color: rgb(73, 72, 72) !important;
+    border: 1px solid #ffc107;
+
+}
+.color-heart{
+    color:#d13131;
+}
+.animationtion-photo{
+   animation:leftAnimation ;
+   animation-duration: 2s;
+   animation-iteration-count: 1;
+}
+.photo-without-photo{
+    left: 90%;
+    visibility: hidden;
+}
+@media(max-width:60rem){
+    .img-absolute{
+        top: 60%;
+    }
+    .hidden-ca{
+        display: none;
+    }
+}
+@media(max-width:40rem){
+    @keyframes leftAnimation {
+        from{ visibility: hidden; left: 90%; }
+        to{visibility: visible;left: 39% }
+    };
+    body{
+        overflow-x: hidden;
+    }
+    .transparent-button-black{
+        width: 20%;
+        font-size: 10px;
+    }
+    .hidden-ca{
+        display: block;
+    }
+
+    .img-absolute{
+        top: 78%;
+        left: 39%;
+       width:  13.5rem;
+    }
 }
 
 

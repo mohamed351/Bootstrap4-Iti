@@ -15,7 +15,7 @@
             <div class="container-fluid">
                 <a class="text-white my-favorate-color   navbar-brand " href="#">CARDBORD</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon my-toggle-button"></span>
+                  <span class="navbar-toggler-icon "></span>
                 </button>
               
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -58,9 +58,9 @@
               <div class="bd-example">
                     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                       <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active causal-point"></li>
+                        <li class="causal-point" data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li class="causal-point" data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                       </ol>
                       <div class="carousel-inner">
                         <div class="carousel-item active ">
@@ -150,8 +150,8 @@
                     <div class="row justifiy-content-cent pt-5 pl-5">
 
                       <div class="col-12 col-md-6 relative">
-                        <img src="img/about_1.jpg" class="img-fluid img-max-hight" alt="">
-                        <img src="img/work_1.jpg" class="img-absolute" alt="">
+                        <img id="animationIndecator" src="img/about_1.jpg" class="img-fluid img-max-hight" alt="">
+                        <img src="img/work_1.jpg" id="eventImg" class="img-absolute photo-without-photo" alt="">
                       </div>
 
                       <div class="col-12 col-md-6">
@@ -235,6 +235,12 @@
                     <div class="row mt-5 ">
 
                      <div id="Employees" class="d-none d-sm-block  carousel slide" data-ride="carousel">
+
+                        <ol class="carousel-indicators parind">
+                            <li data-target="#Employees" data-slide-to="0" class="active causal-point parcal"></li>
+                            <li data-target="#Employees" data-slide-to="1" class="causal-point parcal"></li>
+                           
+                          </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                 <div class="d-flex active justify-content-center">
@@ -242,11 +248,11 @@
 
                           <img src="img/person_1.jpg" class="img-fluid small-img-rounded d-inline-block align-top" />
                           <div class="d-inline-block">
-                          <h6 class="mb-0 ml-3">John Smith</h6>
+                          <h6 class="mb-0 ml-3 title-font">John Smith</h6>
                        
-                          <p class=" ml-3"> Customer crop</p>
+                          <p class=" ml-3 mywrite-font"> Customer crop</p>
                         </div>
-                        <div class="d-block">
+                        <div class="d-block mywrite-font">
                             <p>
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore odio explicabo, maxime nam ullam totam? Velit dolorum itaque consectetur quod necessitatibus deserunt? Necessitatibus debitis iure tenetur esse sapiente rem.
                             </p>
@@ -258,11 +264,11 @@
 
                                 <img src="img/person_2.jpg" class="img-fluid small-img-rounded d-inline-block align-top" />
                                 <div class="d-inline-block">
-                                <h6 class="mb-0 ml-3">Craig Darren</h6>
+                                <h6 class="mb-0 ml-3 title-font">Craig Darren</h6>
                              
-                                <p class=" ml-3"> Customer crop.</p>
+                                <p class=" ml-3 mywrite-font"> Customer crop.</p>
                               </div>
-                              <div class="d-block">
+                              <div class="d-block mywrite-font">
                                   <p>
                                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore odio explicabo, maxime nam ullam totam? Velit dolorum itaque consectetur quod necessitatibus deserunt? Necessitatibus debitis iure tenetur esse sapiente rem.
                                   </p>
@@ -277,11 +283,11 @@
         
                                   <img src="img/person3.jpg" class="img-fluid small-img-rounded d-inline-block align-top" />
                                   <div class="d-inline-block">
-                                  <h6 class="mb-0 ml-3">Soso Smith</h6>
+                                  <h6 class="mb-0 ml-3 title-font">Soso Smith</h6>
                                
-                                  <p class=" ml-3"> Customer crop</p>
+                                  <p class=" ml-3 mywrite-font"> Customer crop</p>
                                 </div>
-                                <div class="d-block">
+                                <div class="d-block mywrite-font">
                                     <p>
                                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore odio explicabo, maxime nam ullam totam? Velit dolorum itaque consectetur quod necessitatibus deserunt? Necessitatibus debitis iure tenetur esse sapiente rem.
                                     </p>
@@ -293,11 +299,11 @@
         
                                         <img src="img/person_2.jpg" class="img-fluid small-img-rounded d-inline-block align-top" />
                                         <div class="d-inline-block">
-                                        <h6 class="mb-0 ml-3">Craig Darren</h6>
+                                        <h6 class="mb-0 ml-3 title-font">Craig Darren</h6>
                                      
-                                        <p class=" ml-3"> Customer crop.</p>
+                                        <p class=" ml-3 mywrite-font"> Customer crop.</p>
                                       </div>
-                                      <div class="d-block">
+                                      <div class="d-block mywrite-font">
                                           <p>
                                               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore odio explicabo, maxime nam ullam totam? Velit dolorum itaque consectetur quod necessitatibus deserunt? Necessitatibus debitis iure tenetur esse sapiente rem.
                                           </p>
@@ -314,18 +320,18 @@
                        
                         <!--Mobile-->
 
-                        <div id="employee2" class="d-xl-none  carousel slide" data-ride="carousel">
+                        <div id="employee2" class="d-xl-none  carousel slide hidden-ca" data-ride="carousel">
                             <div class="carousel-inner">
 
                                 <div class="carousel-item active">
                                     <div class="col-12">
                                        <img src="img/person3.jpg" class="img-fluid small-img-rounded d-inline-block align-top" />
                                        <div class="d-inline-block">
-                                       <h6 class="mb-0 ml-3">John Smith</h6>
+                                       <h6 class="mb-0 ml-3 title-font ">John Smith</h6>
                                     
-                                       <p class=" ml-3"> Customer crop</p>
+                                       <p class=" ml-3 mywrite-font"> Customer crop</p>
                                      </div>
-                                     <div class="d-block">
+                                     <div class="d-block mywrite-font">
                                          <p>
                                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore odio explicabo, maxime nam ullam totam? Velit dolorum itaque consectetur quod necessitatibus deserunt? Necessitatibus debitis iure tenetur esse sapiente rem.
                                          </p>
@@ -356,11 +362,11 @@
                                   <div class="col-12">
                                      <img src="img/person_2.jpg" class="img-fluid small-img-rounded d-inline-block align-top" />
                                      <div class="d-inline-block">
-                                     <h6 class="mb-0 ml-3">Craig Darren</h6>
+                                     <h6 class="mb-0 ml-3 title-font">Craig Darren</h6>
                                   
-                                     <p class=" ml-3"> Customer crop</p>
+                                     <p class=" ml-3 mywrite-font"> Customer crop</p>
                                    </div>
-                                   <div class="d-block">
+                                   <div class="d-block mywrite-font">
                                        <p>
                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore odio explicabo, maxime nam ullam totam? Velit dolorum itaque consectetur quod necessitatibus deserunt? Necessitatibus debitis iure tenetur esse sapiente rem.
                                        </p>
@@ -389,8 +395,8 @@
                 <section class="container-fluid backgound-section-pre ">
                   <div class="row ">
                     <div class="col-12">
-                  <h3 class="text-center mt-5">Let's do more together</h3>
-                  <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid omnis a ipsa voluptate!</p>
+                  <h3 class="text-center mt-5 title-font">Let's do more together</h3>
+                  <p class="text-center mywrite-font text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid omnis a ipsa voluptate!</p>
                   <div class="row justify-content-center">
                     <div class="col-12 col-md-2">
                   <button class="transparent-button-white">Get In Touch</button>
@@ -440,7 +446,7 @@
 
                   <div class="row">
                     <div class="col-12">
-                      <p class="text-center"> Copywrite 2019  All rights for <b> ITI Alexandria  intake 40 team </b>  | this template made for my   because i love ITI  </p>
+                      <p class="text-center"> Copywrite 2019  All rights for <b> ITI Alexandria  intake 40 team </b>  | this template made for my <i class="far fa-heart color-heart"></i>  because i love ITI  </p>
                     </div>
                   </div>
                 </footer>
@@ -452,33 +458,55 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function(){
-           window.onscroll = function(e){
-            var y = $(document).scrollTop();
+      function ColorNavBar() {
+        var y = $(document).scrollTop();
            
-            if(650<y)
-            {
-                $("#navbar-element").removeClass("navbar-transparent");
-                $("#navbar-element")
-                .addClass("navbar-light")
-                .addClass("bg-light");
-                $("#navbar-element .text-white").each(function(c){
-                   $(this).removeClass("text-white");
-                });
-             
-                
-            }
-            else
-            {
-                $("#navbar-element").addClass("navbar-transparent");
-                $("#navbar-element")
-                .removeClass("navbar-light")
-                .removeClass("bg-light");
-                $("#navbar-element .nav-link").each(function(c){
-                   $(this).addClass("text-white");
-                });
-            }
+           if(650<y)
+           {
+               $("#navbar-element").removeClass("navbar-transparent");
+               $("#navbar-element")
+               .addClass("navbar-light")
+               .addClass("bg-light");
+               $("#navbar-element .text-white").each(function(c){
+                  $(this).removeClass("text-white");
+               });
+            
+               
+           }
+           else
+           {
+               $("#navbar-element").addClass("navbar-transparent");
+               $("#navbar-element")
+               .removeClass("navbar-light")
+               .removeClass("bg-light");
+               $("#navbar-element .nav-link").each(function(c){
+                  $(this).addClass("text-white");
+               });
+           }
 
+      }
+      function MakeAnimation()
+      {
+        var item = $("#animationIndecator").offset();
+        console.log($(document).scrollTop());
+        console.log(item.top);
+        if(item.top <$(document).scrollTop() || item.top <$(document).scrollTop()*3 ){
+          $("#eventImg").removeClass("photo-without-photo")
+          .addClass("animationtion-photo");
+        }
+        else{
+          $("#eventImg").addClass("photo-without-photo")
+          .removeClass("animationtion-photo");
+        }
+        
+      }
+        $(document).ready(function(){
+          
+          MakeAnimation();
+          ColorNavBar();
+           window.onscroll = function(e){
+            ColorNavBar();
+            MakeAnimation();
            }
 
         });
