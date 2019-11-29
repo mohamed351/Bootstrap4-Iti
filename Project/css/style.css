@@ -6,9 +6,13 @@
     from{ visibility: hidden; left: 90%; }
     to{visibility: visible;left: 33% }
 };
-body
+*{
+    overflow-x: hidden;
+}
+body,html
 {
     overflow-x:hidden !important;
+   
 }
 .title-font{
     font-family: "idiot font";
